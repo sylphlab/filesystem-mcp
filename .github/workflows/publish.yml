@@ -111,7 +111,7 @@ jobs:
       id-token: write
     steps:
       - name: Download build artifacts archive
-        uses: actions/download-artifact@v4.1.8 # Specific version
+        uses: actions/download-artifact@v4.2.1 # Specific version
         with:
           name: ${{ needs.build.outputs.artifact_name }} # Use consistent artifact name
           path: .
@@ -144,7 +144,7 @@ jobs:
       packages: write
     steps:
       - name: Download build artifacts archive
-        uses: actions/download-artifact@v4.1.8 # Specific version
+        uses: actions/download-artifact@v4.2.1 # Specific version
         with:
           name: ${{ needs.build.outputs.artifact_name }} # Use consistent artifact name
           path: .
@@ -199,7 +199,7 @@ jobs:
       contents: write # Keep write permission
     steps:
       - name: Download build artifacts archive
-        uses: actions/download-artifact@v4.1.8 # Specific version
+        uses: actions/download-artifact@v4.2.1 # Specific version
         with:
           name: ${{ needs.build.outputs.artifact_name }} # Use consistent artifact name
           path: .
