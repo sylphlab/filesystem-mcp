@@ -75,7 +75,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.6.0",
+    "@modelcontextprotocol/sdk": "^1.8.0",
     "detect-indent": "^7.0.1",
     "diff": "^7.0.0",
     "glob": "^11.0.1",
