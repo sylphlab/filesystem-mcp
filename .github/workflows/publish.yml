@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.1.7 # Specific version
+        uses: actions/checkout@v4.2.2 # Specific version
 
       - name: Set up Node.js
         uses: actions/setup-node@v4.0.3 # Specific version
@@ -67,7 +67,7 @@ jobs:
       
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.1.7 # Specific version
+        uses: actions/checkout@v4.2.2 # Specific version
 
       - name: Set up Node.js
         uses: actions/setup-node@v4.0.3 # Specific version
